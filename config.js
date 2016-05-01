@@ -11,11 +11,11 @@
 *
 */
 
-exports.server = 'localhost';
+exports.server = 'flamesaviorreborn-lustyash.c9users.io';
 
-exports.port = 8000;
+exports.port = 8080;
 
-exports.serverid = 'localhost';
+exports.serverid = 'flamesavior';
 
 exports.autoReconnectDelay = 10 * 1000;
 exports.connectionTimeout = 2 * 60 * 1000;
@@ -44,9 +44,9 @@ exports.watchconfig = true;
 * Login Details
 */
 
-exports.nick = '';
+exports.nick = 'Inferno Queen';
 
-exports.pass = '';
+exports.pass = 'aaaaaa';
 
 exports.autoReloginDelay = 60 * 1000;
 
@@ -77,7 +77,7 @@ exports.initCmds = ['|/avatar 120']; // Other commands (avatar, blockchallenges,
 * Auth configuration
 */
 
-exports.exceptions = {
+exports.exceptions = {'alliancesky': true
 	// 'userid': true
 };
 
@@ -106,7 +106,7 @@ exports.globalPermissions = {
 * Commands configuration
 */
 
-exports.commandTokens = ['.']; //Array of valid command characters
+exports.commandTokens = ['-']; //Array of valid command characters
 
 exports.defaultPermission = '%';
 
